@@ -25,4 +25,23 @@
 </html>
 ```
 ---
-
+## **Experience**
+### No experience yet
+---
+## Education
+* **University:** Belarusian National Technical University
+    + Automated electric drives
+* **Courses:**
+    * HTML Academy
+    * WayUp
+---
+## **Languages**
+* Belarusian - native speaker.
+* Russian - native speaker.
+* English - A2 (B1 in process…)
+---
+## **Contacts**
+* Telegram: [Mikita Tsynakou](https://t.me/mikdalton)
+* E-mail: mambaklas@gmail.com
+* GitHub [MikDalton ](https://github.com/MikDalton)
+---
