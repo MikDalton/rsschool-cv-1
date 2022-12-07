@@ -1,4 +1,4 @@
-## [rsschool-cv](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-github-hints.md)
+## [rsschool-cv](https://mikdalton.github.io/rsschool-cv/cv)
 # **Mikita Tsyhankou**
 ## **About me**
 ### I am 22 years old and work as an electronics engineer. At the moment I do not see any perspective in this direction, so I want to get a new profession. Always happy to learn something new.
