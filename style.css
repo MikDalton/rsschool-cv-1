@@ -9,6 +9,7 @@ body {
 }
 header {
   color: white;
+  background-color:lightsteelblue;
 }
 body, ul, li, a, p, img {
   margin: 0;
@@ -72,6 +73,9 @@ a {
   padding-right: 10px;
   color: black;
   text-decoration: none;
+}
+.container-background {
+  background-color: black;
 }
 .contacts-section {
   display: flex;
@@ -191,8 +195,13 @@ a {
 .skills li {
   list-style:inside;
 }
+.codeexample {
+  border-bottom: 2px solid black;
+}
 code {
   font-size: 20px;
+}footer {
+  background-color:black;
 }
 .footer-information {
   display: flex;
