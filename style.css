@@ -5,7 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 header {
   color: white;
@@ -14,24 +14,28 @@ body, ul, li, a, p, img {
   margin: 0;
   padding: 0;
   list-style: none;
+  line-height: 32px;
 }
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   
 }
 h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 48px;
+  font-weight: medium;
   color: white
 }
 h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-weight: medium;
+  font-size: 28px;
 }
 p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-weight: light;
+  font-size: 20px;
+}
+a {
+  font-size: 20px;
+  font-weight: light;
 }
 .container {
   width: 1200px;
@@ -41,48 +45,53 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #4d2323;
+  background-color:lightsteelblue;
   height: 50px;
 }
 .nav-list {
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
   list-style: none;
   flex-basis: 70%;
 }
-.nav-list li{
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
+
 .logo {
   display: flex;
-  justify-content: center;
-  flex-basis: 30%;
+  justify-content: flex-start;
+  flex-basis: 24%;
+  padding-left: 62px;
 }
 .logo a {
-  color: white;
+  color:black;
   text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 30px;
+  font-weight: medium;
 }
 .nav-link {
   padding-right: 10px;
-  color: white;
+  color: black;
   text-decoration: none;
-  font-size: 15px;
-  font-weight: normal;
 }
 .contacts-section {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  background-color: #4d2323;
-  padding-bottom: 10px;
+  background-color: black;
+  height: 430px;
 }
 .photo-section {
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-basis: 30%;
+}
+.photo-background {
+  display: flex;
+  align-items: center;
+  background-color: #223B52;
+  width: 276px;
+  height: 430px;
 }
 .myphoto {
   width: 276px;
@@ -108,11 +117,9 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 30px;
 }
 .contact-title {
   list-style: none;
-  flex: 5;
 }
 .contact-info {
   margin-bottom: 20px;
@@ -141,35 +148,71 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   width: 276px;
-  background-color: cadetblue;
-  padding-top: 10px;
+  background-color:lightsteelblue;
+  padding-top: 20px;
 }
 .column-right {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   flex-basis: 70%;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .aboutMe-section {
+  border-bottom: 2px solid black;
 }
 .education-experience {
   display: flex;
   justify-content: space-between;
 }
 .education {
+  border-bottom: 2px solid black;
 }
 .experience {
+  border-bottom: 2px solid black;
 }
 .languages {
-  padding-left: 42px;
+  margin-left: 22px;
+  margin-right: 22px;
+  border-bottom: 2px solid black;
+}
+.languages li {
+  list-style:inside;
 }
 .skills {
-  padding-left: 42px;
+  margin-left: 22px;
+  margin-right: 22px;
+  border-bottom: 2px solid black;
 }
-pre {
+.main-information h2, ul, p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.skills li {
+  list-style:inside;
+}
+code {
+  font-size: 20px;
 }
 .footer-information {
-  background-color: #4d2323;
+  display: flex;
+  align-items: center;
+  background-color: black;
   height: 50px;
+  color: white;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%;
+}
+.footer-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 276px;
+  background-color: #223B52;
+
 }
