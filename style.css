@@ -191,6 +191,9 @@ a {
 .skills li {
   list-style:inside;
 }
+.codeexample {
+  border-bottom: 2px solid black;
+}
 code {
   font-size: 20px;
 }
