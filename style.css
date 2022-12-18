@@ -16,15 +16,16 @@ body, ul, li, a, p, img {
   padding: 0;
   list-style: none;
   line-height: 32px;
+
 }
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  
 }
 h1 {
   font-size: 48px;
   font-weight: medium;
   color: white
+  
 }
 h2 {
   font-weight: medium;
@@ -37,12 +38,17 @@ p {
 a {
   font-size: 20px;
   font-weight: light;
+  color: black;
+  text-decoration: none;
+}
+img {
+  border: none;
 }
 .container {
   width: 1200px;
   margin: auto;
 }
-.nav {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -92,14 +98,16 @@ a {
 }
 .photo-background {
   display: flex;
+  justify-content: center;
   align-items: center;
   background-color: #223B52;
   width: 276px;
   height: 430px;
 }
 .myphoto {
-  width: 276px;
+  width: 266px;
   height: auto;
+  border-radius: 300px;
 }
 .information {
   display: flex;
@@ -199,29 +207,85 @@ a {
   border-bottom: 2px solid black;
 }
 code {
+  padding-top: 0;
+  margin-top: 0;
+  
   font-size: 20px;
-}footer {
+}
+pre {
+  padding:  0px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+.project-line {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.project-square {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+.project-link {
+  margin-bottom: 10px;
+}
+.project-photo {
+  height: 200px;
+  width: auto;
+}
+footer {
   background-color:black;
 }
-.footer-information {
+.footer-background {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: black;
   height: 50px;
   color: white;
 }
-.footer-logo {
+.footer-info {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-basis: 30%;
+  color: white;
 }
-.footer-background {
+.info-background {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 50px;
   width: 276px;
   background-color: #223B52;
-
+}
+.footer-list {
+  margin-left: 22px;
+  text-decoration: none;
+}
+.footer-list li{
+  margin-bottom: 0px;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: light;
+}
+.gitlogo a {
+  text-decoration: none;
+  line-height: 22px;
+  font-size: 18px;
+  color: white;
+}
+.footer-logo {
+  height: 50px;
+}
+.rsslink {
+  display: flex;
+  align-items: flex-end;
+}
+.rsslogo {
+  height: 50px;
+  width: auto;
 }
