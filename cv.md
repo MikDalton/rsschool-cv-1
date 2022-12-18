@@ -1,7 +1,7 @@
 ## [rsschool-cv](https://mikdalton.github.io/rsschool-cv/cv)
 # **Mikita Tsyhankou**
 ## **About me**
-### I am 22 years old and work as an electronics engineer. At the moment I do not see any perspective in this direction, so I want to get a new profession. Always happy to learn something new.
+### Hi, I'm Mikita and I'm a beginner web developer. After working as an engineer for several years, I realized that I wanted to work in a different industry. Remembering that I studied programming at school, I decided to change my profession and start learning again. Although my programming abilities are not great, I am sure that my desire to learn and perseverance will lead me to success.
 ---
 ### **Skills**
 * HTML
@@ -27,6 +27,9 @@
 ---
 ## **Experience**
 ### No experience yet
+---
+## **Projects**
+### [CV](https://mikdalton.github.io/rsschool-cv/)
 ---
 ## Education
 * **University:** Belarusian National Technical University
