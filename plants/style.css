@@ -1,0 +1,114 @@
+html {
+    scroll-behavior: smooth; 
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1440px;
+    margin: auto;
+    padding: auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 111px;
+    padding-right: 109px;
+    height: 134px;
+    background-color: #EDF2EC;
+    color: #010201;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1220px;
+    height: 50px;
+}
+.logo a{
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.85px;
+    color: #010201;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 452px;
+}
+.nav-item a{
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: #010201;
+}
+.nav-item-main a{
+    font-family: 'Inika';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    color: #E06733;
+}
+.welcome-section {
+    display: flex;
+    align-items: center;
+    height: 470px;
+    padding-left: 109px;
+    padding-top: 62px;
+    background-color: #EDF2EC;
+}
+.welcome-img {
+    width: 448.8px;
+    height: 407.36px;
+    margin-right: 224px;
+}
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.welcome-section h1 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 42px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #717171;
+}
+.welcome-section span {
+    color: #499A18;
+}
+.welcome-section p{
+    font-family: 'Inter'
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 48px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #636060;
+}
+.welcome-button {
+    font-family: 'Inter'
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #010201;
+    width: 158px;
+    height: 44px;
+    background-color: #EDF2EC;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
