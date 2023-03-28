@@ -19,6 +19,17 @@ header {
     background-color: #EDF2EC;
     color: #010201;
 }
+h2 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+span {
+    color: #E06733;
+}
 a {
     text-decoration: none;
 }
@@ -62,7 +73,7 @@ ul {
 }
 .welcome-section {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     height: 470px;
     padding-left: 109px;
     padding-top: 62px;
@@ -112,3 +123,67 @@ ul {
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    height: 666px;
+    padding-left: 109px;
+}
+.about-text {
+    display: flex;
+    flex-direction: column;
+    width: 605px;
+    height: 350px;
+    margin-right: 153px;
+    margin-top: 161px;
+    margin-bottom: 155px;
+    
+}
+.about-img {
+    margin-top: 93px;
+    width: 464px;
+    height: 479px;
+}
+.about-text p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+    
+}
+.service-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 1300px;
+    padding-left: 109px;
+    padding-top: 40px;
+    background-color: #EDF2EC;
+}
+.service-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.service-content h2 {
+    margin-right: 142px;
+}
+.service-content button {
+    margin-right: 38px;
+}
+.service-button {
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    width: 161px;
+    height: 50px;
+    background-color: #EDF2EC;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    
+}
+    
