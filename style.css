@@ -1,0 +1,291 @@
+html {
+    scroll-behavior: smooth; 
+  }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Inter', sans-serif;
+}
+header {
+  color: white;
+  background-color:lightsteelblue;
+}
+body, ul, li, a, p, img {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 32px;
+
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+h1 {
+  font-size: 48px;
+  font-weight: medium;
+  color: white
+  
+}
+h2 {
+  font-weight: medium;
+  font-size: 28px;
+}
+p {
+  font-weight: light;
+  font-size: 20px;
+}
+a {
+  font-size: 20px;
+  font-weight: light;
+  color: black;
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:lightsteelblue;
+  height: 50px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  flex-basis: 70%;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  flex-basis: 24%;
+  padding-left: 62px;
+}
+.logo a {
+  color:black;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: medium;
+}
+.nav-link {
+  padding-right: 10px;
+  color: black;
+  text-decoration: none;
+}
+.container-background {
+  background-color: black;
+}
+.contacts-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 430px;
+}
+.photo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 30%;
+}
+.photo-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #223B52;
+  width: 276px;
+  height: 430px;
+}
+.myphoto {
+  width: 266px;
+  height: auto;
+  border-radius: 300px;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 70%;
+}
+.undername {
+  color: cadetblue;
+}
+.contacts {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 2;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-title {
+  list-style: none;
+}
+.contact-info {
+  margin-bottom: 20px;
+}
+.contacts ul {
+  margin-right: 20px;
+}
+.contacts li {
+  list-style: none;
+  color:  white;
+}
+.contacts a {
+  text-decoration: none;
+  color: cadetblue;
+}
+.main-information {
+  display: flex;
+}
+.column-left {
+  display: flex;
+  justify-content: center;
+  flex-basis: 30%;
+}
+.column-left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 276px;
+  background-color:lightsteelblue;
+  padding-top: 20px;
+}
+.column-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-basis: 70%;
+  padding-top: 20px;
+}
+.aboutMe-section {
+  border-bottom: 2px solid black;
+}
+.education-experience {
+  display: flex;
+  justify-content: space-between;
+}
+.education {
+  border-bottom: 2px solid black;
+}
+.experience {
+  border-bottom: 2px solid black;
+}
+.languages {
+  margin-left: 22px;
+  margin-right: 22px;
+  border-bottom: 2px solid black;
+}
+.languages li {
+  list-style:inside;
+}
+.skills {
+  margin-left: 22px;
+  margin-right: 22px;
+  border-bottom: 2px solid black;
+}
+.main-information h2, ul, p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.skills li {
+  list-style:inside;
+}
+.codeexample {
+  border-bottom: 2px solid black;
+}
+code {
+  padding-top: 0;
+  margin-top: 0;
+  
+  font-size: 20px;
+}
+pre {
+  padding:  0px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+.project-line {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.project-square {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+.project-link {
+  margin-bottom: 10px;
+}
+.project-photo {
+  height: 200px;
+  width: auto;
+}
+footer {
+  background-color:black;
+}
+.footer-background {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 50px;
+  color: white;
+}
+.footer-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%;
+  color: white;
+}
+.info-background {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  width: 276px;
+  background-color: #223B52;
+}
+.footer-list {
+  margin-left: 22px;
+  text-decoration: none;
+}
+.footer-list li{
+  margin-bottom: 0px;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: light;
+}
+.gitlogo a {
+  text-decoration: none;
+  line-height: 22px;
+  font-size: 18px;
+  color: white;
+}
+.footer-logo {
+  height: 50px;
+}
+.rsslink {
+  display: flex;
+  align-items: flex-end;
+}
+.rsslogo {
+  height: 50px;
+  width: auto;
+}
